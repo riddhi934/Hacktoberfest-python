@@ -1,14 +1,9 @@
-import random
-
-Digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']   
+import random   
 
 try:
 	n=int(input("Enter the no. of digits required in pin in number "))
-	pin=''
-	for i in range(n):
-		pin=pin+random.choice(Digits)
-
-	print(pin)
+	pin = lambda: ''.join([str(random.randint(1,9)) for i in range(n)])
+	print(pin())
 	 
 except ValueError:
 	print("PLease enter a number only")
