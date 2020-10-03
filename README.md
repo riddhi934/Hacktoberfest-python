@@ -1,1 +1,1 @@
-The repository contains all the python programs which are doing some work and adding the classwork assement given by the college.
+Contribute python programs which are giving some solutions and its open for everyone and its under hackoctober fest so Welcome :)
